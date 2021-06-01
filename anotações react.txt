@@ -1,0 +1,51 @@
+
+------------ JS ------------
+
+let // valores variáveis
+const  //  valor estático
+
+default export // importação padrao, escolhe o nome que voce quiser     import person from './person.js'
+named export  //  importa pelo nome
+
+
+
+metodo super()  //  necessario quando usa constructor em uma classe estendida de outra
+
+spread operator // usado para dividir todos elementos ou propriedades de um objeto 
+	new array = [...oldArray, 1, 2]      newObject = {...oldObject, newProp: 5}
+rest operator //  mescla uma lista de argumentos de uma função em um array
+
+desestruturação //  extrai elementos de um array ou propriedades de um obj e armazena em variavel
+	[a, b] = ['hello', 'max']
+
+//  arrays e objetos são tipos de referência
+
+array.map()  //  recebe uma função como entrada, e executa em cada elemento da matriz
+	const number = [1, 2, 3];
+
+	const doubleNum = number.map((num) => {
+ 		return num * 2
+	})
+
+	console.log(number)
+	console.log(doubleNum)
+
+----------------- REACT -----------------------
+
+REACT - biblioteca js para construir interfaces de usuário (client side) (escreve de forma declarativa)
+
+Abordagem imperativa - descreve ação após ação até chegar ao limite
+
+SPA (Single page application) - servidor só envia 1 pag HTML, depois disso o REACT controla a 
+interface
+
+
+import ReactDOM from 'react-dom'  //  importando objeto da biblioteca
+
+//  um componente em react é uma função em javascript que retornam o código HTML 
+//  cria um componente > cria a função que retorna o HTML > exporta > importa no local
+	export default Component;
+	import Component from './pasta/Component'
+
+{}  //  permite executar JavaScript dentro
+
