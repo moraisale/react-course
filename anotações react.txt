@@ -42,10 +42,19 @@ interface
 
 import ReactDOM from 'react-dom'  //  importando objeto da biblioteca
 
+import nome-componente from './arquivodocomponente'
+import './css'
+
+
+ReactDOM.render (
+	<Componente/>, onde-quer-renderizar
+)
+
 //  um componente em react é uma função em javascript que retornam o código HTML 
 //  cria um componente > cria a função que retorna o HTML > exporta > importa no local
 	export default Component;
 	import Component from './pasta/Component'
 
 {}  //  permite executar JavaScript dentro
+
 
